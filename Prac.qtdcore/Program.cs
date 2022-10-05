@@ -25,8 +25,8 @@ namespace Prac.qtdcore
         }
         public static void Main(string[] args)
         {
-            Foo();
-            Console.ReadLine();
+
+			Console.WriteLine((Foo())?"success":"fail");
         }
     }
 }
